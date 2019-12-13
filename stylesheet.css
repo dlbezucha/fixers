@@ -5,6 +5,18 @@ body {
 h1 {
     max-width: 600px;
     margin: auto;
+    padding-top: 20px;
+}
+
+.title {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: : 20px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
 }
 
 .copy {
@@ -13,16 +25,17 @@ h1 {
     margin-right: auto;
     margin-bottom: 20px;
     font-size: 20px;
+    font-family: 'Assistant', sans-serif;
 }
 
-.title {
+
+.byline {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    font-size: 50px;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 5px;
+    font-size: 15px;
+    font-family: 'Assistant', sans-serif;
 }
 
 .active {
@@ -68,6 +81,12 @@ h1 {
     background-color: black;
 }
 
+.photo-chart {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 .photo video {
     object-fit: cover;
     width: 100%;
@@ -76,7 +95,7 @@ h1 {
 
 .scroll-scenes {
     position: relative;
-    padding-top: 50vh;
+    margin-top: -95vh;
 }
 
 .scene {
@@ -90,8 +109,10 @@ h1 {
     max-width: 500px;
     margin: auto;
     padding: 15px;
-    font-size: 24px;
+    font-size: 22px;
     background-color: rgba(0, 0, 0, 0.75);
+    line-height: 30px;
+
 }
 
 .after {

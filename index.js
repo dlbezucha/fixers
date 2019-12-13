@@ -9,13 +9,22 @@ const scroller = new window.Scroller({
 
 scroller.on("scene:enter", d => {
     images[d.index].classList.add("active");
+    if (images[d.index].classList.contains("photo-video")) {
+        let video = images[d.index].getElementsByTagName("video")[0]
+        video.play();
+    }
 });
 
 scroller.on("scene:exit", d => {
-    console.log(d.isScrollingDown);
     if (d.index != 0 && !d.isScrollingDown) {
         images[d.index].classList.remove("active");
     }
+    //console.log(images[d.index].classList)
+    if (images[d.index].classList.contains("photo-video")) {
+        let video = images[d.index].getElementsByTagName("video")[0]
+        video.pause();
+    }
+    //if (images) {}
 });
 
 window.addEventListener("load", event => {
