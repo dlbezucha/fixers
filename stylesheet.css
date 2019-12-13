@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    max-width: 600px;
+    margin: auto;
+}
+
+.copy {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.title {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
+.active {
+    opacity: 1 !important;
+    transition: opacity 1s !important;
+}
+
+.inactive {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.scroller {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.scroll-graphic {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.photo img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.photo-vertical img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.photo video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.scroll-scenes {
+    position: relative;
+    padding-top: 50vh;
+}
+
+.scene {
+    height: 100vh;
+    /* opacity: 0;
+  transition: opacity 2s; */
+}
+
+.scene-content {
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 15px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.after {
+    height: 1px;
+}
