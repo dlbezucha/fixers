@@ -3,9 +3,14 @@ body {
 }
 
 h1 {
-    max-width: 600px;
-    margin: auto;
-    padding-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: : 20px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
 }
 
 .title {
@@ -19,6 +24,17 @@ h1 {
     letter-spacing: 5px;
 }
 
+.subtitle {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: : 20px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+
 .copy {
     max-width: 600px;
     margin-left: auto;
@@ -28,6 +44,14 @@ h1 {
     font-family: 'Assistant', sans-serif;
 }
 
+.copy-end {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+}
 
 .byline {
     max-width: 600px;
@@ -83,8 +107,10 @@ h1 {
 
 .photo-chart {
     max-width: 800px;
+    height: 600px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .photo video {
