@@ -11,6 +11,7 @@ h1 {
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 5px;
+    line-height: 30px
 }
 
 .title {
@@ -22,6 +23,7 @@ h1 {
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 5px;
+    line-height: 50px
 }
 
 .subtitle {
@@ -135,9 +137,10 @@ h1 {
     max-width: 500px;
     margin: auto;
     padding: 15px;
-    font-size: 22px;
+    font-size: 20px;
     background-color: rgba(0, 0, 0, 0.75);
     line-height: 30px;
+    font-family: 'Assistant', sans-serif;
 
 }
 
