@@ -107,10 +107,10 @@ h1 {
 
 .photo-chart {
     max-width: 800px;
-    height: 600px;
+    height: 400px;
     margin: auto;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .photo video {
